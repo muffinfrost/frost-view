@@ -1,0 +1,21 @@
+### https://erddap.ioos.us/erddap search shark -> 404 text/plain;charset=UTF-8 163B
+Error {     code=404;     message="Not Found: Resource not found: Your query produced no matching results. Check the spelling of the word(s) you searched for."; } 
+
+### https://erddap.ioos.us/erddap search Carcharodon -> 404 text/plain;charset=UTF-8 163B
+Error {     code=404;     message="Not Found: Resource not found: Your query produced no matching results. Check the spelling of the word(s) you searched for."; } 
+
+### https://erddap.aodn.org.au/erddap ERR [Errno -3] Temporary failure in name resolution
+### https://animaltracking.aodn.org.au/ -> 200 text/html;charset=UTF-8 696B
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="animal-tracking-webapp"/><link rel="manifest" href="/manifest.json"/><link rel="shortcut icon"
+
+
+### https://www.sharksmart.nsw.gov.au/ -> 403 text/html; charset=UTF-8 5501B
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scal
+
+
+### https://atn.ioos.us/ -> 200 text/html 8744B
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>IOOS Animal Telemetry Network</title><!--link(rel="shortcut icon", href="/images/favicon.ico?v=2")--><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="descriptio
+
+  LINK: https://fonts.googleapis.com/css?family=Roboto
+  LINK: https://fonts.googleapis.com/css?family=Roboto+Slab
+
