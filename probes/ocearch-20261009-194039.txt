@@ -1,0 +1,64 @@
+HTTP Request: GET https://www.mapotic.com/api/v1/maps/3413/pois.geojson/?h=0 "HTTP/1.1 403 Forbidden"
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+  File "/opt/webcam-mcp/venv/lib/python3.12/site-packages/httpx/_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+HTTP Request: GET https://www.mapotic.com/api/v1/maps/3413/ "HTTP/1.1 403 Forbidden"
+HTTP Request: GET https://www.ocearch.org/tracker/ajax/filter-sharks/ "HTTP/1.1 200 OK"
+HTTP Request: GET https://www.mapotic.com/api/v1/maps/3413/pois.geojson/?h=0 "HTTP/1.1 403 Forbidden"
+Traceback (most recent call last):
+  File "<stdin>", line 29, in t
+  File "/opt/webcam-mcp/server.py", line 337, in list_sharks
+    data = await _oc_get("/pois.geojson/", {"h": 0}, ttl=1800)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/webcam-mcp/server.py", line 204, in _oc_get
+    r.raise_for_status()
+  File "/opt/webcam-mcp/venv/lib/python3.12/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 Forbidden' for url 'https://www.mapotic.com/api/v1/maps/3413/pois.geojson/?h=0'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+### pois.geojson -> 403 text/html; charset=UTF-8 5676B
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-uhp0zk947VdHlD6AH1NP0d&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd
+
+### https://www.mapotic.com/api/v1/maps/3413/ -> 403 text/html; charset=UTF-8 5589B
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-MmAQ7ckmJiKRsDZShhlwyD&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.cloudflare.com; connect-src &#39;self&#39; https://challenges.cloudflare.com; frame-src &#39;self&#39; https://challenges.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd
+
+### https://www.ocearch.org/tracker/ajax/filter-sharks/ -> 200 text/html; charset=utf-8 133670B
+<!doctype html>
+<html lang="en" data-critters-container>
+
+<head><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="utf-8">
+  <title>OCEARCH Shark Tracker</title>
+  <base href="/tracker/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/tracker/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/tracker/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/tracker/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/tracker/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/tracker/assets/favicon/safari-pinned-tab.svg" color="#01193c">
+  <link rel="shortcut icon" href="/tracker/assets/favicon/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Ocearch">
+  <meta name="application-name" content="Ocearch">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-config" content="/tracker/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="OCEARCH Shark Tracker">
+  <meta name="description" content="OCEARCH is a data-centric organization built to help scientists collect previously unattainable data in the ocean.">
+  <meta name="author" content="Mapotic - Wildlife Tracking">
+
+  <!-- Open Graph / Faceb
+
+==== tools ====
