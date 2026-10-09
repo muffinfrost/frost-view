@@ -1,0 +1,138 @@
+SCRIPTS: ['https://maps.googleapis.com/maps/api/js?key=AIzaSyDoxSKfBHiX_EkY3LW13KzvmVAtUE5irFk', 'runtime.aed25bd1aee8153a.js', 'polyfills.3307ea574e96739c.js', 'main.c3897cb2f0544e91.js', '//js.hs-scripts.com/39536596.js']
+ERR https://maps.googleapis.com/maps/api/js?key=AIzaSyDoxSKfBHiX_EkY3LW13KzvmVAtUE5irFk [Errno 101] Network is unreachable
+JS https://www.ocearch.org/tracker/runtime.aed25bd1aee8153a.js 3700B
+JS https://www.ocearch.org/tracker/polyfills.3307ea574e96739c.js 68349B
+JS https://www.ocearch.org/tracker/main.c3897cb2f0544e91.js 2092850B
+JS https://js.hs-scripts.com/39536596.js 2184B
+
+==== FOUND ====
+${Bi.Z.ROOT_SLASH}${Bi.Z.DETAIL}/${s}
+${m.N.domain}/tracker/assets/icons/ocearch-icon-${_}-outline.svg
+${m.N.domain}/tracker/assets/icons/social_media/${_}.svg
+${n.N.domain}/tracker/${z}
+${n.N.domain}/tracker/assets/images/og/ocearch_shark2.jpg
+${this.mapsApiUrl}${Pe}/banners/
+${this.mapsApiUrl}${ft}/pois/${Ee}/motion/travel-log/
+${this.mapsApiUrl}${i.N.ocearchMapoticMapId}/remote-config/${x}/
+${this.mapsApiUrl}${s}/pois.geojson/
+${this.mapsApiUrl}${s}/public-categories/
+${this.mapsApiUrl}${ut}/public-pois/${Ue}/
+${this.mapsApiUrl}${x}/pois/${D}/motion/with-meta/
+../tracker/assets/icons/ocearch-icon-${_}-outline.svg
+../tracker/assets/icons/social_media/${_}.svg
+/${Bi.Z.DETAIL}/${u}
+/animal-groups
+/assets/images/og/ocearch-shark2.jpg
+/detail/
+/detail/last-viewed
+/filters
+/tracker/assets/icons/${u?
+/tracker/assets/icons/ocearch-icon-info-outline-blue.svg
+/tracker/assets/icons/ocearch-icon-pin-filled.svg
+/tracker/assets/icons/ocearch-icon-ping-outline.svg
+/tracker/assets/icons/ocearch-icon-track-outline-blue.svg
+/tracker/assets/images/animal-icons/${_.icon}.svg
+/tracker/assets/images/animal-icons/${u.category.icon}.svg
+/tracker/assets/images/animal-icons/animated/gif/${_.icon}.gif
+/tracker/assets/images/logo/Ocearch-Logo-Horizontal-No-Tagline-WhiteBlue.svg
+/tracker/assets/images/logo/Ocearch-Logo-Horizontal-Tagline-WhiteBlue.svg
+/tracker/assets/images/mobile-app-icon-48x48.jpg
+/tracker/assets/images/partners-logos/${Pe}
+/tracker/assets/images/partners-logos/mapotic.svg
+/tracker/assets/images/poi-detail/banner-shop-now-small.jpg
+/tracker/assets/images/silhouettes/ocearch-silhouette-${this.animalDetailEssentials.category}.svg
+/tracker/assets/images/waves.gif
+/tracker/assets/marker-icon-2x.png
+/tracker/assets/marker-icon.png
+/tracker/assets/marker-shadow.png
+CTX:  A=D.timestamp-D.started;D.duration=A>=0?A:0}T.release&&(D.release=T.release),T.environment&&(D.environment=T.environment),!D.ipAddress&&T.ipAddress&&(D.ipAddress=T.ipAddress),!D.userAgent&&T.userAgent&&(D.userAgent=T.userAgent),"number"==typeof T.errors&&(D.errors=T.errors),T.st
+CTX:  ae.x,this.transitionAbortSubject=new ae.x,this.configLoader=(0,i.f3M)(we),this.environmentInjector=(0,i.f3M)(i.lqb),this.urlSerializer=(0,i.f3M)(Ot),this.rootContexts=(0,i.f3M)(Fi),this.inputBindingEnabled=null!==(0,i.f3M)(uo,{optional:!0}),this.navigationId=0,this.afterPreactiv
+CTX: !1,kc(t,w=>this.processProvider(w)),this.records.set(Op,Ac(void 0,this)),f.has("environment")&&this.records.set(xa,Ac(void 0,this))
+CTX: ()},Ct=Te.integrations||Q.integrations.map(ge=>ge.name);(function Z(Q,ce){const{environment:Te,release:ne,dist:ke,maxValueLength:Ze=250}=ce
+CTX: ({state:Yt,tree:_n})=>({...It,targetSnapshot:Yt,urlAfterRedirects:_n}))))}(this.environmentInjector,this.configLoader,this.rootComponentType,k.config,this.urlSerializer,k.paramsInheritanceStrategy),(0,Ft.b)(Ui=>{Xe.targetSnapshot=Ui.targetSnapshot,Xe.urlAfterRedirects=Ui.urlAfter
+CTX: ,Ze.z)(It=>Xe===_e.length?(0,v.of)(k):b.E))})}(k.paramsInheritanceStrategy,this.environmentInjector),(0,Ft.b)({next:()=>ki=!0,complete:()=>{ki||this.cancelNavigationTransition(Xn,"",2)}}))}),(0,Ft.b)(Xn=>{const ki=new Br(Xn.id,this.urlSerializer.serialize(Xn.extractedUrl),this.ur
+CTX: ,_e.injector);this.activated=_e.createComponent(It,{index:_e.length,injector:_n,environmentInjector:V??this.environmentInjector}),this.changeDetector.markForCheck(),this.inputBinder?.bindActivatedRouteToOutletComponent(this),this.activateEvents.emit(this.activated.instance)}stati
+CTX: :this},{provide:Rc,useValue:this.componentFactoryResolver},...c],Z(t),new Set(["environment"])),this._r3Injector.resolveInjectorInitializers(),this.instance=this._r3Injector.get(t)}get injector(){return this._r3Injector}destroy(){const t=this._r3Injector
+CTX: ;"environment"in Q||(Q.environment="environment"in ce?Te:v.J),void 0===Q.release&&void 0!==ne&&(Q.release=ne),void 0===Q.dist&&void 0!==ke&&(Q.dist=ke),Q.message&&(Q.message=(0,m.$G)(Q.message,Ze))
+CTX: M)(Fi),this.location=(0,i.f3M)(i.s_b),this.changeDetector=(0,i.f3M)(i.sBO),this.environmentInjector=(0,i.f3M)(i.lqb),this.inputBinder=(0,i.f3M)(uo,{optional:!0}),this.supportsBindingToComponentInputs=!0}get activatedComponentRef(){return this.activated}ngOnChanges(k){if(k.name){c
+CTX: SessionTracking:!1,tracesSampleRate:1e-4,enabled:!(0,n.X6Q)(),dsn:m.N.sentryDsn,environment:m.N.env,release:"prod"===m.N.env?g.TAG:g.COMMIT_HASH,ignoreErrors:["TypeError","<unknown>","UnhandledRejection","in chrome-extension://","in SafariExtensionContent","window.google","NS_ERR
+CTX: _e,!0))}(V,Xe,F,j):(0,v.of)(Yt)),(0,Q.U)(Yt=>({...k,guardsResult:Yt})))})}(this.environmentInjector,_n=>this.events.next(_n)),(0,Ft.b)(_n=>{if(Xe.guardsResult=_n.guardsResult,Jt(_n.guardsResult))throw Co(0,_n.guardsResult)
+CTX: c,useValue:this.componentFactoryResolver}],t.parent||Iu(),t.debugName,new Set(["environment"]))
+CTX: d)().getScope()}function ot(Ft){const ft=Ze(),Ee=(0,m.aF)(),st=ht(),{release:ge,environment:Ne=n.J}=ft&&ft.getOptions()||{},{userAgent:lt}=i.GLOBAL_OBJ.navigator||{},rn=(0,g.Hv)({release:ge,environment:Ne,user:st.getUser()||Ee.getUser(),...lt&&{userAgent:lt},...Ft}),rt=Ee.getSess
+CTX: f(w)I=r;else{const jn=r||{};I=jn.index,c=jn.injector,f=jn.projectableNodes,y=jn.environmentInjector||jn.ngModuleRef}const W=w?t:new el(Hn(t)),pe=c||this.parentInjector
+CTX: ion()}startSession(ne){const{scope:ke,client:Ze}=this.getStackTop(),{release:Be,environment:ht=v.J}=Ze&&Ze.getOptions()||{},{userAgent:ot}=d.GLOBAL_OBJ.navigator||{},Ct=(0,T.Hv)({release:Be,environment:ht,user:ke.getUser(),...ot&&{userAgent:ot},...ne}),mt=ke.getSession&&ke.getSes
+CTX: ion:D.duration,abnormal_mechanism:D.abnormal_mechanism,attrs:{release:D.release,environment:D.environment,ip_address:D.ipAddress,user_agent:D.userAgent}})}(A)}
+CTX: od.toUpperCase();let u="",_="url";a.customRoute||o.route?(u=a.customRoute||`${o.baseUrl||""}${o.route&&o.route.path}`,_="route"):(o.originalUrl||o.url)&&(u=vo(o.originalUrl||o.url||""))
+CTX: op:`ui.interaction.${C}`,name:(0,Cr.Rt)(u.target),attributes:{release:B.release,environment:B.environment,transaction:wt,...void 0!==kn&&""!==kn?{user:kn}:{},...void 0!==Un?{profile_id:Un}:{},...void 0!==un?{replay_id:un}:{}},exclusiveTime:s.value,measurements:{inp:{value:s.value
+CTX: tion cn(){typeof Bn.document>"u"?Xi&&d.kg.warn("Session tracking in non-browser environment with @sentry/browser is not supported."):((0,st.yj)({ignoreDuration:!0}),(0,st.cg)(),at(({from:o,to:a})=>{void 0!==o&&o!==a&&((0,st.yj)({ignoreDuration:!0}),(0,st.cg)())}))}()}var Ln=h(312
+CTX: tions(),{publicKey:Z}=T.getDsn()||{},{segment:N}=A&&A.getUser()||{},R=(0,i.Jr)({environment:z.environment||n.J,release:z.release,user_segment:N,public_key:Z,trace_id:D})
+CTX: {this.cachedInjectors.clear()}}static#e=this.\u0275prov=Ve({token:e,providedIn:"environment",factory:()=>new e(Fn(xa))})}return e})()
+api/v1/maps/${m.N.ocearchMapoticMapId}
+application/json
+detail/${Ke.slug}
+https://api.windy.com/assets/map-forecast/libBoot.js
+https://apps.apple.com/us/app/ocearch-shark-tracker/id570772231
+https://developers.arcgis.com/esri-leaflet/api-reference/request/
+https://ibasemaps-api.arcgis.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile
+https://mapotic.com
+https://maps.googleapis.com/maps/api/js?key=AIzaSyDoxSKfBHiX_EkY3LW13KzvmVAtUE5irFk
+https://media.mapotic.com
+https://ocearch.firebaseio.com
+https://play.google.com/store/apps/details?id=org.ocearch.SharkTrackerAndroid&hl=en
+https://shop.ocearch.org?utm_source=website&utm_medium=animal-detail&utm_campaign=shop
+https://www.mapotic.com/api/v1/
+https://www.mapotic.com/solutions/wildlife-tracking/
+https://www.ocearch.org/education/shark-facts/
+https://www.ocearch.org/education/shark-tracker-free-app/
+https://www.ocearch.org/research/global-white-shark-project/
+https://www.ocearch.org/research/track-sharks-with-us/
+https://www.ocearch.org/tracker/assets/images/og/ocearch_shark2.jpg
+zone.js/plugins/task-tracking
+}/api/
+
+==== TRY ====
+### https://www.ocearch.org/animal-groups -> 404 text/html; charset=UTF-8 194063B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/tracker/assets/images/waves.gif -> 200 image/gif 33512B
+GIF89ah( �  ���	��	���� �� �� �� �� �� �� �� �� �� �� �� �� �� ������ ���� �� ������������������������)��(����p����������v�����f�������������������������T�������j����� ~������"�����m��������������=����� �����������R��1�������J��G���������M�����\�������������#��&��Z�����������������!��4���� �����x��������~��������������������^������������������5�����?��?�����������|�� ��2�������c��:��*�����+�������{������X���������� {������C�����_��E��������������������Q��t�����b
+
+### https://www.ocearch.org/application/json -> 404 text/html; charset=UTF-8 194066B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://apps.apple.com/us/app/ocearch-shark-tracker/id570772231 ERR Request URL has an unsupported protocol 'itms-appss://'.
+### https://developers.arcgis.com/esri-leaflet/api-reference/request/ -> 200 text/html 98B
+<meta http-equiv="refresh" content="0; URL='/esri-leaflet/api-reference/esri-leaflet/request/'" />
+
+### https://ibasemaps-api.arcgis.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile -> 200 text/plain 63B
+{"error":{"code":499,"message":"Token Required.","details":[]}}
+
+### https://maps.googleapis.com/maps/api/js?key=AIzaSyDoxSKfBHiX_EkY3LW13KzvmVAtUE5irFk ERR [Errno 101] Network is unreachable
+### https://play.google.com/store/apps/details?id=org.ocearch.SharkTrackerAndroid&hl=en ERR [Errno 101] Network is unreachable
+### https://shop.ocearch.org?utm_source=website&utm_medium=animal-detail&utm_campaign=shop -> 429 text/plain 18B
+local_rate_limited
+
+### https://www.mapotic.com/api/v1/ -> 403 text/html; charset=UTF-8 5772B
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-XYL27Xjz702VbxbnijN11R&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s
+
+### https://www.mapotic.com/solutions/wildlife-tracking/ -> 403 text/html; charset=UTF-8 5857B
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="content-security-policy" content="default-src &#39;none&#39;; script-src &#39;nonce-AJAaUhauv4Z3W90EQcLaiL&#39; &#39;unsafe-eval&#39; https://challenges.cloudflare.com; script-s
+
+### https://www.ocearch.org/education/shark-facts/ -> 200 text/html; charset=UTF-8 285928B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/education/shark-tracker-free-app/ -> 200 text/html; charset=UTF-8 212650B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/research/global-white-shark-project/ -> 200 text/html; charset=UTF-8 240981B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/research/track-sharks-with-us/ -> 200 text/html; charset=UTF-8 212978B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/zone.js/plugins/task-tracking -> 404 text/html; charset=UTF-8 194079B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
+### https://www.ocearch.org/}/api/ -> 404 text/html; charset=UTF-8 194057B
+<!DOCTYPE html> <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!--><html lang="en-US" class="no-js"> <!--<![endif]--><head><script data-no-optimize="1">var litespeed_docref=sessionStorage.getItem("litespeed_docref");litespeed_docref&&(Object.defineProperty(document,"referrer",{get:function(){return litespeed_docref}}),sessionStorage.removeItem("litespeed_docref"));</script> <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=1"/><li
+
